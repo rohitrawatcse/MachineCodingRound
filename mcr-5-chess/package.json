@@ -1,0 +1,34 @@
+{
+  "name": "roc8-chess-clone",
+  "version": "1.0.0",
+  "description": "This is a chess app where you can check knight positions",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swastikpatro/roc8-chess-clone.git"
+  },
+  "author": "Swastik Patro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swastikpatro/roc8-chess-clone/issues"
+  },
+  "homepage": "https://github.com/swastikpatro/roc8-chess-clone#readme",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.3",
+    "@parcel/transformer-webmanifest": "^2.8.3",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "shortid": "^2.2.16"
+  },
+  "browserslist": [
+    "last 2 chrome versions"
+  ]
+}

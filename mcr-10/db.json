@@ -1,0 +1,357 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Swastik",
+      "lastName": "Patro",
+      "username": "swastik2001",
+      "email": "patroswastik.jsdev@gmail.com",
+      "password": "patro2001",
+      "image": "https://res.cloudinary.com/dtbd1y4en/image/upload/v1690706751/Gutargu-social/ce0hmyg4spgkrbpsnxqz.jpg"
+    },
+    {
+      "id": 2,
+      "firstName": "Sarah",
+      "lastName": "Williams",
+      "username": "sarah",
+      "email": "williams.sarah@gmail.com",
+      "password": "sarahWil",
+      "image": "https://res.cloudinary.com/dtbd1y4en/image/upload/v1688479706/Gutargu-social/user_318-372646_aqojid.png"
+    },
+    {
+      "id": 3,
+      "firstName": "Jacob",
+      "lastName": "Mitchell",
+      "username": "jacobmitch",
+      "email": "jacob@gmail.com",
+      "password": "jacobMIT",
+      "image": "https://res.cloudinary.com/dtbd1y4en/image/upload/v1688976586/1b8fabaa8d66250a7049bdb9ecf44397_qpwpsv.jpg"
+    },
+    {
+      "id": 4,
+      "firstName": "Ashish",
+      "lastName": "Joshi",
+      "username": "aditya",
+      "email": "aditya.josh@gmail.com",
+      "password": "adijosh",
+      "image": "https://res.cloudinary.com/dtbd1y4en/image/upload/v1688976587/74_qbknaa.jpg"
+    },
+    {
+      "id": 5,
+      "firstName": "Rohan",
+      "lastName": "Roy",
+      "username": "rohroy",
+      "email": "rohanroy@gmail.com",
+      "password": "royeRohan",
+      "image": "https://res.cloudinary.com/dtbd1y4en/image/upload/v1688976587/lSvWN_q-_400x400_i0hvck.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": 14,
+      "userId": 3,
+      "content": "This is first post by Jacob.",
+      "likes": {
+        "likeCount": 2,
+        "likedBy": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "userId": 3,
+      "content": "This is sixth post by Jacob.",
+      "likes": {
+        "likeCount": 1,
+        "likedBy": [
+          1
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "userId": 3,
+      "content": "This is fourth post by Jacob.",
+      "likes": {
+        "likeCount": 2,
+        "likedBy": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "content": "This is sixth post by Sarah.",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    },
+    {
+      "id": 21,
+      "userId": 4,
+      "content": "This is first post by Ashish.",
+      "likes": {
+        "likeCount": 1,
+        "likedBy": [
+          2
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "userId": 4,
+      "content": "This is seventh post by Ashish.",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    },
+    {
+      "id": 25,
+      "userId": 4,
+      "content": "This is fifth post by Ashish.",
+      "likes": {
+        "likeCount": 2,
+        "likedBy": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "content": "This is first post by Sarah.",
+      "likes": {
+        "likeCount": 2,
+        "likedBy": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "userId": 4,
+      "content": "This is second post by Ashish.",
+      "likes": {
+        "likeCount": 2,
+        "likedBy": [
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "content": "This is second post by Sarah.",
+      "likes": {
+        "likeCount": 2,
+        "likedBy": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "userId": 2,
+      "content": "This is fifth post by Sarah.",
+      "likes": {
+        "likeCount": 1,
+        "likedBy": [
+          1
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "userId": 2,
+      "content": "This is fourth post by Sarah.",
+      "likes": {
+        "likeCount": 3,
+        "likedBy": [
+          1,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "content": "This is third post by Sarah.",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    },
+    {
+      "id": 30,
+      "userId": 5,
+      "content": "This is third post by Rohan.",
+      "likes": {
+        "likeCount": 1,
+        "likedBy": [
+          5
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "userId": 4,
+      "content": "This is sixth post by Ashish.",
+      "likes": {
+        "likeCount": 3,
+        "likedBy": [
+          2,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "userId": 3,
+      "content": "This is third post by Jacob.",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    },
+    {
+      "id": 29,
+      "userId": 5,
+      "content": "This is second post by Rohan.",
+      "likes": {
+        "likeCount": 3,
+        "likedBy": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "userId": 3,
+      "content": "This is fifth post by Jacob.",
+      "likes": {
+        "likeCount": 1,
+        "likedBy": [
+          1
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "userId": 3,
+      "content": "This is seventh post by Jacob.",
+      "likes": {
+        "likeCount": 1,
+        "likedBy": [
+          3
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "userId": 3,
+      "content": "This is second post by Jacob.",
+      "likes": {
+        "likeCount": 2,
+        "likedBy": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "userId": 4,
+      "content": "This is fourth post by Ashish.",
+      "likes": {
+        "likeCount": 3,
+        "likedBy": [
+          1,
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "userId": 5,
+      "content": "This is first post by Rohan.",
+      "likes": {
+        "likeCount": 4,
+        "likedBy": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "userId": 4,
+      "content": "This is third post by Ashish.",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    },
+    {
+      "id": "f95fe3a6-4d63-4600-9704-1c3582a22e6b",
+      "userId": 1,
+      "content": "Hii",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    },
+    {
+      "id": "54d95b21-b6e4-4b65-8ff6-f11a96886da4",
+      "userId": 1,
+      "content": "Byyee bro",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    },
+    {
+      "id": "d37ccf9d-2151-4b54-9669-fbb0d8145ff8",
+      "userId": 1,
+      "content": "Yes",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    },
+    {
+      "id": "c6d5973a-8375-4e62-9503-775d1a8cba26",
+      "userId": 1,
+      "content": "No why?",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    },
+    {
+      "id": "345b0e5d-7e9b-4646-bb22-a0d59a264f02",
+      "userId": 1,
+      "content": "Illey",
+      "likes": {
+        "likeCount": 0,
+        "likedBy": []
+      }
+    }
+  ]
+}

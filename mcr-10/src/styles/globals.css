@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h-without-nav {
+  height: calc(100vh - 4rem);
+}
